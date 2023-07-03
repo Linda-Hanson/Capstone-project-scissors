@@ -1,5 +1,5 @@
 const allowedOrigins = [
-    'https://scissors-frontend.onrender.com/register'
+    'https://scissors-frontend.onrender.com'
 ]
 
 module.exports=allowedOrigins
