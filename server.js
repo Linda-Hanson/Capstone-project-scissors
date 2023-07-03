@@ -23,9 +23,9 @@ app.use(express.static(path.resolve(__dirname, "../frontend/build")));
 
 app.get("/", function (request, response) {
     // response.sendFile(
-    //     path.resolve(__dirname, "../frontend/build", "index.html")
+    //     path.resolve(__dirname, "../client/public", "index.html")
     // );
-    response.send('hello world')
+    response.send('<h1>hello world</h1>')
 });
 
 // app.use(cors({ credentials: true }));
